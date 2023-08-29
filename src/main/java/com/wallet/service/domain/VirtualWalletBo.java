@@ -1,9 +1,9 @@
-package com.example.helloworld.service.domain;
+package com.wallet.service.domain;
 
 import java.math.BigDecimal;
 
-import com.example.helloworld.common.InsufficientBalanceException;
-import com.example.helloworld.common.InvalidAmountException;
+import com.wallet.common.InsufficientBalanceException;
+import com.wallet.common.InvalidAmountException;
 
 public class VirtualWalletBo {
     private long id;

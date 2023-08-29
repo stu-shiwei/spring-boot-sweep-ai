@@ -1,4 +1,4 @@
-package com.example.helloworld.repository.entity;
+package com.wallet.repository.entity;
 
 import java.math.BigDecimal;
 

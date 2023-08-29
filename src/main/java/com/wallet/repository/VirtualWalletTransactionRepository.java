@@ -1,7 +1,7 @@
-package com.example.helloworld.repository;
+package com.wallet.repository;
 
-import com.example.helloworld.common.VirtualWalletStatus;
-import com.example.helloworld.repository.entity.VirtualWalletTransactionEntity;
+import com.wallet.common.VirtualWalletStatus;
+import com.wallet.repository.entity.VirtualWalletTransactionEntity;
 
 public class VirtualWalletTransactionRepository {
 

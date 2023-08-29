@@ -1,4 +1,4 @@
-package com.example.helloworld.service.domain;
+package com.wallet.service.domain;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

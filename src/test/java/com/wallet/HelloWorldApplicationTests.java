@@ -1,6 +1,6 @@
-package com.example.helloworld;
+package com.wallet;
 
-import com.example.helloworld.controller.HelloWorldController;
+import com.wallet.controller.HelloWorldController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

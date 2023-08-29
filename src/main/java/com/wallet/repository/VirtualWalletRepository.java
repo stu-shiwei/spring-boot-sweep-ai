@@ -1,8 +1,8 @@
-package com.example.helloworld.repository;
+package com.wallet.repository;
 
 import java.math.BigDecimal;
 
-import com.example.helloworld.repository.entity.VirtualWalletEntity;
+import com.wallet.repository.entity.VirtualWalletEntity;
 
 public class VirtualWalletRepository {
 

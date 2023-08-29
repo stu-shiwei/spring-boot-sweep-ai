@@ -1,4 +1,4 @@
-package com.example.helloworld.common;
+package com.wallet.common;
 
 public enum VirtualWalletStatus {
     TO_BE_EXECUTED,

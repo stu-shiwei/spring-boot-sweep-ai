@@ -1,4 +1,4 @@
-package com.example.helloworld.service;
+package com.wallet.service;
 
 public class VirtualWalletService {
   

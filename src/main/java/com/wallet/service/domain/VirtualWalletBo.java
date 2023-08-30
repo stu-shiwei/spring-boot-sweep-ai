@@ -34,7 +34,7 @@ public class VirtualWalletBo {
         if (this.balance.compareTo(amount) < 0) {
             throw new InsufficientBalanceException();
         }
-        this.balance.subtract(amount);
+        this.balance = this.balance.subtract(amount);
     }
 
     //入账
@@ -42,7 +42,16 @@ public class VirtualWalletBo {
         if (amount.compareTo(BigDecimal.ZERO) < 0) {
             throw new InvalidAmountException();
         }
-        this.balance.add(amount);
+        this.balance = this.balance.add(amount);
+    }
+
+    //获取可用余额
+    public BigDecimal getAvailableBalance() {
+        if (isAllowedOverdraft) {
+            return this.balance.add(this.overdraftAmount);
+        } else {
+            return this.balance;
+        }
     }
 
 }
